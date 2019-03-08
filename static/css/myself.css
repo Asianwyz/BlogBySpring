@@ -117,6 +117,12 @@ body{
     color: #333333 !important;
 }
 
+/*---------shadow-------------*/
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    -moz-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow:   0 4px 8px rgba(0,0,0,0.2) !important;
+}
 
 .m-mobile-show{
     display: none !important;
@@ -131,6 +137,10 @@ body{
     }
 
     .m-padded-lr-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-padded-lr-clear{
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
