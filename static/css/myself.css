@@ -1,4 +1,8 @@
 
+body{
+    background: url("../images/bg.png");
+}
+
 /*-----------padding---------*/
 .m-padded-mini{
     padding: 0.2em  !important;
@@ -77,6 +81,7 @@
     line-height: 1.8;
 }
 
+/*------------opacity------------*/
 .m-opacity-mini{
     opacity: 0.8    !important;
 }
