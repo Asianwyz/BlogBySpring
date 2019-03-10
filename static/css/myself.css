@@ -4,6 +4,9 @@ body{
 }
 
 /*-----------padding---------*/
+.m-padded{
+    padding:1em !important;
+}
 .m-padded-mini{
     padding: 0.2em  !important;
 }
@@ -54,6 +57,17 @@ body{
     top:0;
     right:0;
 }
+
+.m-fixed{
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.m-right-bottom{
+    bottom:0 !important;
+    right:0 !important;
+}
+
 /*-------------margin--------------*/
 .m-margin-tb-tiny{
     margin-top: 0.3em !important;
