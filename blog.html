@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./static/css/typo.css">
     <link rel="stylesheet" href="./static/css/animate.css">
     <link rel="stylesheet" href="./static/css/myself.css">
+    <link rel="stylesheet" href="lib/prism/prism.css">
     <title>博客</title>
 </head>
 <body>
@@ -53,6 +54,7 @@
 
                 </div>
             </div>
+            <pre><code class="language-css">p { color: red }</code></pre>
             <div class="ui attached segment">
                 <!---图片--->
                 <img src="https://picsum.photos/800/450?image=1043" alt="" class="ui fluid rounded image">
@@ -306,6 +308,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="lib/prism/prism.js"></script>
     <script>
         $('.menu.toggle').click(function () {
             $('.m-item').toggleClass('m-mobile-hide');
